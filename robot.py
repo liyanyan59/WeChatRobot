@@ -35,7 +35,7 @@ def text_process(message):
     reply = json.loads(reply)
     data = reply['data']
     if type(data) == list:
-        data = data[0]
+        data = str(data[0])
     return data
 
 
