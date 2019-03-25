@@ -37,7 +37,7 @@ def text_process(message):
     return data
 
 
-# 让服务器监听在 0.0.0.0:6987
+# 让服务器监听在 0.0.0.0:80
 robot.config['HOST'] = '0.0.0.0'
-robot.config['PORT'] = 6987
+robot.config['PORT'] = 80
 robot.run()
