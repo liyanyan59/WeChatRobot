@@ -34,7 +34,7 @@ def text_process(message):
     reply = re.findall('返回:jason.*?\r\n(.*)', reply)[0].strip().replace('\\', '')
     reply = json.loads(reply)
     data = reply['data']
-    if type(data) == 'list':
+    if type(data) == list:
         data = data[0]
     return data
 
