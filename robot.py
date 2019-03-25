@@ -11,7 +11,7 @@ import werobot
 import requests
 import json
 
-robot = werobot.WeRoBot(token='tokenhere')
+robot = werobot.WeRoBot(token='lylyrdcrdc')
 
 
 @robot.text
