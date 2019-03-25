@@ -19,9 +19,9 @@ def text_(message):
     return text_process(message)
 
 
-# @robot.image
-# def image_(message):
-#     return image_process()
+@robot.image
+def image_(message):
+    return '对不起！我还不能处理图片信息！'
 
 
 post_url = 'https://www.aixxz.com/test/ApiTest_main.php?randkey=R9UThn77gX5YMhugP32C'
